@@ -23,7 +23,7 @@ function App() {
 		}))
 	}
 	return (
-		<div style={{fontFamily:'Consolas'}}>
+		<div style={{fontFamily:'Consolas', display:"flex", justifyContent:'center', alignItems:'center', flexDirection:'column', }}>
 			<Form addTodo={addTodo}/>
 			<List todos={todos} deleteTodo={deleteTodo} updateTodo={updateTodo} />
 		</div>
